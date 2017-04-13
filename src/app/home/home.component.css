@@ -32,3 +32,8 @@
 .lbackground { color: #fcdc01 }
 
 .woman-laying { margin-top: 30px; }
+
+.llimplies {
+  display: block;
+  margin: 0 auto;
+}
