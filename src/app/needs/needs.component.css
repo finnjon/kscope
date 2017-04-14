@@ -1,41 +1,4 @@
-.needs-left, .needs-right {
-  margin: 20px 20px 40px 0;
-  /*border: 1px solid black;*/
-}
-
-.needs-right {
-  width: 50%;
-}
-
-.needs-right-text {
-  padding: 20px;
+.needs1 {
   background-color: #CC0000;
-  font-family: verdana;
-  font-size: 0.8em;
   color: #ffffff;
-  border-radius: 5px;
-  line-height: 1.5;
-}
-
-.needs-left-image {
-  display: block;
-  margin: 15px auto 0 auto;
-}
-
-.click-here {
-  margin-top: 20px;
-  padding: 10px;
-  background-color: #f0f0f0;
-  font-family: verdana;
-  font-size: 0.8em;
-  color: #000000;
-  border-radius: 5px;
-  line-height: 1.5;
-}
-
-.click-here-text {
-  width: 75%;
-  margin: 0 auto;
-  font-weight: bold;
-  text-align: center;
 }
