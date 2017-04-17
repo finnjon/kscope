@@ -5,13 +5,14 @@
       <span class="triangle bottomleft"></span>
       <span class="space-lbar"></span> <!-- long white flexy bit -->
       <span class="triangle bottomright"></span>
-      <span class="suomeksi">Suomeksi</span>
+      <span class="suomeksi" (click)="changeLang('fi')">Suomeksi</span>
       <span class="triangle topleft"></span>
-      <div class="grey english">In English</div>
+      <div class="grey english" (click)="changeLang('en')">In English</div>
       <span class="triangle bottomright"></span>
     </div>
     <div class="pure-u-1">
-      <img src="assets/images/body_kalen.gif" alt="logo" class="pure-img logo">
+      <img *ngIf="translate.currentLang === 'en'" src="assets/images/body_kalen.gif" alt="logo" class="pure-img logo">
+      <img *ngIf="translate.currentLang === 'fi'" src="assets/images/body_kalfi.gif" alt="logo" class="pure-img logo">
     </div>
   </div>
   <router-outlet></router-outlet>

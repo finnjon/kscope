@@ -1,0 +1,17 @@
+{
+  "intro": "INTRO",
+  "needs": "TARPEET",
+  "cskills": "TAIDOT",
+  "motivation": "MOTIVAATIO",
+  "personality": "PERSOONALLISUUS",
+  "lhistory": "OPPIMISHISTORIA",
+  "profile": "PROFIILISI",
+  "home": {
+    "left": "<p>Jokaisessa <b>kielenoppijassa</b> yhdistyv&auml;t ainutkertaisella tavalla h&auml;nen henkil&ouml;kohtaiset ominaisuutensa ja monenlaiset oppimisen taustatekij&auml;t. N&auml;m&auml; yhdess&auml; vaikuttavat siihen, miten oppiminen koetaan.</p><p> Aika ja uudet oppimistilanteet muuttavat oppijaa ja h&auml;nen k&auml;sityksi&auml;&auml;n ja kokemuksiaan. <b>KIELIKALEIDOSKOOPPISI</b> kuvio muuttuu, kun el&auml;t, opit ja koet uusia asioita.</p><p> Oletko Sin&auml; ajatellut millainen kielenoppija oikeastaan olet? Mit&auml; mielt&auml; olet taidoistasi? Mihin ja millaista taitoa eri kieliss&auml; tarvitset? Haluaisitko todella oppia lis&auml;&auml; tai jotakin uutta? Miten persoonallisuutesi vaikuttaa oppimiseesi? Millaisia kokemuksia Sinulla on kielten opiskelusta ja oppimisesta?</p><p>Miettim&auml;ll&auml; vaikkapa yll&auml;olevia kysymyksi&auml; saat ajatuksia kielten opiskelun suunnitteluun ja tarvittavien valintojen tekoon. <b>KALEIDOSKOOPPI</b> auttaa ja tukee Sinua pohdinnoissasi. N&auml;ill&auml; sivuilla n&auml;et ja kuulet opiskelijoiden mietteit&auml; kielten oppimisesta ja opiskelusta.</p><p>Toivoisimme Sinun my&ouml;s kertovan meille mit&auml; mielt&auml; olet <b>KALEIDOSKOOPISTA</b>. Voit kirjoittaa kommenttisi oppijaprofiilissasi olevaan tilaan. </p><p><b>Tervetuloa mukaan Kaleidoskoopin keskusteluun!</b></p>",
+    "right": "<p> T&auml;m&auml;n <b>Kaleidoskoopin hahmon v&auml;rit</b> edustavat oppimiseen vaikuttavia tekij&ouml;it&auml;. Kun klikkaat allaolevia sanoja, p&auml;&auml;set tutkimusmatkalle omaan kielenoppijuuteesi. Saat lis&auml;&auml; tietoa vieraiden kielten oppimisesta ja opiskelusta ja voit luoda <b>oman oppijaprofiilisi</b>.</p> "
+  },
+  "needs1": {
+    "text": "<p>Tarpeet syntyvät monen tekijän yhteisvaikutuksesta. Näitä tekijöitä on hyvä itsekseen pohtia ja muistaa, että tarpeita on hyvin konkreettisista (esimerkiksi esseen kirjoittaminen) varsin psykologisiin (esimerkiksi uskallus avata suunsa kurssilla).</p><p>Mitä kieliä ja minkälaista kielitaitoa tarvitset yliopisto-opintojesi aikana? Entä myöhemmin työelämässä?</p><p>Vaikuttaako motivaatio tarpeisiisi vai päinvastoin? Miten?</p><p>Onko joitain kieliä tai taitoja, joita olet opiskellessasi vältellyt, vaikka tiedät niiden olevan hydyllisiä? Pysytteletkö useimmiten mukavuusalueellasi?</p><p>Aina ei ole selvää, millaisia tarpeitä meillä kielitaitomme suhteen on. Reflektointi auttaa erittelemään ja tarkentamaan niitä sekä asettamaan ne tärkeysjärjestykseen.</p>",
+    "click-here": "Klikkaa tästä, niin pääset mukaan vuoro-puheluun ja pohtimaan omaa oppimistasi"
+  }
+}

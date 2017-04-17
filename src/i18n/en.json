@@ -1,0 +1,17 @@
+{
+  "intro": "INTRO",
+  "needs": "NEEDS",
+  "cskills": "CURRENT SKILLS",
+  "motivation": "MOTIVATION",
+  "personality": "PERSONALITY",
+  "lhistory": "LEARNING HISTORY",
+  "profile": "MY PROFILE",
+  "home": {
+    "left": "<p>Every <b>language learner</b> is a unique blend of personal characteristics and background factors which affects the experience of learning.</p><p>The characteristics and background factors are not stable, but like the pattern in a <b>KALEIDOSCOPE</b> they change with time and context.</p><p> Have you ever thought about yourself as a language learner? How do you feel about your skills? What do you need languages for? Do you really want to learn more? How does your personality affect the way you learn? What kind of experiences of learning languages have you had so far?</p><p>Reflecting on these questions will help you to plan and decide how you want to proceed with your language studies.<b>KALEIDOSCOPE</b> is here to help you with this reflection. On the following pages, you will see and hear students talking about themselves.</p><p>We also hope that you will spend a few minutes telling us what you think about <b>KALEIDOSCOPE</b>. On your Profile page there is a space for you to write your comments.</p><p><b>Please come and join in the Kaleidoscope dialogue!</b></p>",
+    "right": "<p>The changing colours in our <b>Kaleidoscope figure</b> represent the changing factors that affect language learning. Clicking on the words below will take you on a journey of personal discovery. You will learn more about language learning itself, and you will be able to create your own <b>Kaleidoscope Profile</b>.</p>"
+  },
+  "needs1": {
+    "text": "<p>Needs arise from a combination of factors. It's worth thinking about these factors, bearing in mind that needs may be either concrete, such as writing an essay,  or more psychological e.g. overcoming inhibition.</p><p>What languages and what specific language skills and purposes are important for you at university?</p><p>And how about later on in life?</p><p>Does motivation affect your needs, or perhaps vice-versa? If so, in what way?</p><p>Is there anything that you think could be useful but that you have been avoiding? Do you  rarely stray from your comfort zone?</p><p>At times our needs are not too clear: self-reflection on our learning process  may help us specify and prioritise them.</p>",
+    "click-here": "Click here to join the dialogue and start your own reflection process"
+  }
+}

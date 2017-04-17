@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { Routes, RouterModule } from '@angular/router';
+import { TranslateModule } from "ng2-translate";
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -55,7 +56,8 @@ const appRoutes: Routes = [
     BrowserModule,
     FormsModule,
     HttpModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    TranslateModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
