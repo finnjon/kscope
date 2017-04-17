@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from 'ng2-translate';
 
 @Component({
   selector: 'app-lbackground',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LBackgroundComponent implements OnInit {
 
-  constructor() { }
+  constructor(private translate: TranslateService) { }
 
   ngOnInit() {
   }
