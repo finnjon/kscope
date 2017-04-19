@@ -5,7 +5,8 @@
   "motivation": "MOTIVAATIO",
   "personality": "PERSOONALLISUUS",
   "lhistory": "OPPIMISHISTORIA",
-  "profile": "PROFIILISI",
+  "myprofile": "PROFIILISI",
+  "feedback": "PALAUTE",
   "click-here": "Klikkaa tästä, niin pääset mukaan vuoro-puheluun ja pohtimaan omaa oppimistasi",
   "home": {
     "left": "<p>Jokaisessa <b>kielenoppijassa</b> yhdistyv&auml;t ainutkertaisella tavalla h&auml;nen henkil&ouml;kohtaiset ominaisuutensa ja monenlaiset oppimisen taustatekij&auml;t. N&auml;m&auml; yhdess&auml; vaikuttavat siihen, miten oppiminen koetaan.</p><p> Aika ja uudet oppimistilanteet muuttavat oppijaa ja h&auml;nen k&auml;sityksi&auml;&auml;n ja kokemuksiaan. <b>KIELIKALEIDOSKOOPPISI</b> kuvio muuttuu, kun el&auml;t, opit ja koet uusia asioita.</p><p> Oletko Sin&auml; ajatellut millainen kielenoppija oikeastaan olet? Mit&auml; mielt&auml; olet taidoistasi? Mihin ja millaista taitoa eri kieliss&auml; tarvitset? Haluaisitko todella oppia lis&auml;&auml; tai jotakin uutta? Miten persoonallisuutesi vaikuttaa oppimiseesi? Millaisia kokemuksia Sinulla on kielten opiskelusta ja oppimisesta?</p><p>Miettim&auml;ll&auml; vaikkapa yll&auml;olevia kysymyksi&auml; saat ajatuksia kielten opiskelun suunnitteluun ja tarvittavien valintojen tekoon. <b>KALEIDOSKOOPPI</b> auttaa ja tukee Sinua pohdinnoissasi. N&auml;ill&auml; sivuilla n&auml;et ja kuulet opiskelijoiden mietteit&auml; kielten oppimisesta ja opiskelusta.</p><p>Toivoisimme Sinun my&ouml;s kertovan meille mit&auml; mielt&auml; olet <b>KALEIDOSKOOPISTA</b>. Voit kirjoittaa kommenttisi oppijaprofiilissasi olevaan tilaan. </p><p><b>Tervetuloa mukaan Kaleidoskoopin keskusteluun!</b></p>",
@@ -25,5 +26,18 @@
   },
   "lhistory1": {
     "text": "<p>Oppimishistoriasi rakentuu monista elementeistä, hyvistä ja huonoista kokemuksista, tasaisesta puurtamisesta, jännittävistä ja ahdistavistakin hetkistä. Sen muotoutumiseen ovat vaikuttaneet kontaktit ja törmäykset kieliin ja kulttuureihin, opettajat, saamasi arvioinnit ja palautteet, kokemuksesi eri oppimisympäristöistä, oppimisjärjestelyistä ja joskus jopa byrokratian kiemuroista. On hyvä muistaa, että erityisesti <b>omat</b> käsityksesi itsestäsi ja oppimisestasi vaikuttavat kokemuksiisi. Koko elämänhistoriasi, sen myötä- ja vastoinkäymiset, ovat vaikuttaneet siihen, millaiseksi <b>oppimishistoriasi</b> on muovautunut.</p><p>Tämän historiasi tuot mukanasi jokaiseen uuteen kielenoppimistilanteeseen. Historiasi ei välttämättä suoraan selitä tämänhetkistä tilannettasi, mutta sen pohtiminen esimerkiksi kirjoittamalla tai keskustelemalla saattaa auttaa vaikkapa kielenoppimistilanteisiin liittyvien pelkojen työstämisessä.</p><p>Kriittinen pohdinta ja erityisesti positiiviset tulevaisuuden visiot voivat auttaa Sinua korjaamaan oppimistasi mahdollisesti haittaavia asenteitasi ja käsityksiäsi.</p>"
+  },
+  "profile": {
+    "text": "<p>Tässä yhteenveto antamistasi tiedoista. Jos haluat viel&auml; muuttaa tietoja, yll&auml;olevista linkeist&auml; voit siirty&auml; takaisin kyseisiin kenttiin. Painiketta painamalla l&auml;het&auml;t yhteenvedon valitsemaasi sähköpostiosoitteeseen. Yhteenveto lähetetään lisäksi opettajalle.</p>",
+    "feedback": "Mitä mieltä olet Kaleidoskoopista? Kirjoita tähän kommenttisi.",
+    "alms-only": "ALMS-opiskelijat täyttävät",
+    "name": "Nimi",
+    "faculty": "Tiedekunta",
+    "select": "valitse opettajasi listasta",
+    "no-teach": "Opettajan nimiä ei löydy listasta.",
+    "teach-email": "Kirjoita opettajasi sähköpostiosoitteesi",
+    "address": "Kirjoita tähän sähköpostiosoitteesi. Paina Lähetä-painiketta, niin saat vastauksen sähköpostiisi.",
+    "send": "Lähetä",
+    "clear": "Tyhjennä"
   }
 }

@@ -5,7 +5,8 @@
   "motivation": "MOTIVATION",
   "personality": "PERSONALITY",
   "lhistory": "LEARNING HISTORY",
-  "profile": "MY PROFILE",
+  "myprofile": "MY PROFILE",
+  "feedback": "FEEDBACK",
   "click-here": "Click here to join the dialogue and start your own reflection process",
   "home": {
     "left": "<p>Every <b>language learner</b> is a unique blend of personal characteristics and background factors which affects the experience of learning.</p><p>The characteristics and background factors are not stable, but like the pattern in a <b>KALEIDOSCOPE</b> they change with time and context.</p><p> Have you ever thought about yourself as a language learner? How do you feel about your skills? What do you need languages for? Do you really want to learn more? How does your personality affect the way you learn? What kind of experiences of learning languages have you had so far?</p><p>Reflecting on these questions will help you to plan and decide how you want to proceed with your language studies.<b>KALEIDOSCOPE</b> is here to help you with this reflection. On the following pages, you will see and hear students talking about themselves.</p><p>We also hope that you will spend a few minutes telling us what you think about <b>KALEIDOSCOPE</b>. On your Profile page there is a space for you to write your comments.</p><p><b>Please come and join in the Kaleidoscope dialogue!</b></p>",
@@ -25,5 +26,18 @@
   },
   "lhistory1": {
     "text": "<p>A person's learning history is made up of many factors, including good and bad experiences, long, hard work, happy and anxious moments. It has been influenced by encounters with different languages and cultures, by teachers and peers, assessments and feedback, various learning environments and learning systems.  Remember that your <b>own</b> beliefs about yourself as a learner and your learning shape your experiences. Your whole life history, its ups and downs, has played a role in how your <b>learning</b> history has turned out.</p><p>You bring this history with you to every new language-learning situation. It doesn't necessarily directly explain your current situation, but reflecting on it and writing or discussing it may help you to become a better learner. It may help, for example, with any anxiety you may experience in language learning situations.</p><p>Critical reflection and, more importantly, positive visions about the future may help you get rid of some harmful attitudes or beliefs that are hindering your learning.</p>"
+  },
+  "profile": {
+    "text": "<p>Here is the profile that you have written. If you still want to change something you have written, you can use the links above to go back to the place in question.</p><p>If you give an email address and send us your profile, you will receive a response.</p>",
+    "feedback": "What do you think about Kaleidoscope? Write your comments here for us.",
+    "alms-only": "ALMS students only",
+    "name": "Name",
+    "faculty": "Faculty",
+    "select": "select your teacher",
+    "no-teach": "The teacher's name is not on the list.",
+    "teach-email": "Write your teacher's email here",
+    "address": "Write your email address here. Send it and you will get a response.",
+    "send": "Send your profile",
+    "clear": "clear"
   }
 }

@@ -4,6 +4,14 @@ a {
   color: #ffffff;
 }
 
+.intro-color { color: #666666}
+.needs-color { color: #CC0000}
+.cskills-color { color: #3333D6}
+.motivation-color { color: #CC00CC}
+.personality-color { color: #009933}
+.lhistory-color { color: #FCDC01}
+.profile-color { color: #666666}
+
 /*Skill Styles*/
 
 .skill-left, .skill-right {

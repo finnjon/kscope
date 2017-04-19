@@ -4,27 +4,18 @@
 }
 
 .navbar a {
-  color: black;
   text-decoration: none;
 }
 
 .nav-button {
   font-size: 0.7em;
+  font-family: arial;
   font-weight: bold;
   border: 1px solid black;
   border-radius: 3px;
   background: linear-gradient(#d4d4d4, #acacac);
-  /*background-color: #CCCCCC;*/
   width: 13.65%;
   display: inline-block;
   text-align: center;
   padding: 4px 0;
 }
-
-#intro-button { color: #666666}
-#needs-button { color: #CC0000}
-#cskills-button { color: #3333D6}
-#motivation-button { color: #CC00CC}
-#personality-button { color: #009933}
-#lhistory-button { color: #FCDC01}
-#profile-button { color: #666666}

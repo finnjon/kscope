@@ -1,3 +1,80 @@
-<p>
-  profile works!
-</p>
+<app-navbar></app-navbar>
+
+<div class="profile-intro" [innerHTML]="'profile.text' | translate"></div>
+<div class="profile-block">
+  <h5 class="needs-color">{{ "needs" | translate }}</h5>
+  <p></p>
+</div>
+<div class="profile-block">
+  <h5 class="cskills-color">{{ "cskills" | translate }}</h5>
+  <p></p>
+</div>
+<div class="profile-block">
+  <h5 class="motivation-color">{{ "motivation" | translate }}</h5>
+  <p></p>
+</div>
+<div class="profile-block">
+  <h5 class="personality-color">{{ "personality" | translate }}</h5>
+  <p></p>
+</div>
+<div class="profile-block">
+  <h5 class="lhistory-color">{{ "lhistory" | translate }}</h5>
+  <p></p>
+</div>
+<div class="profile-block">
+  <h5 class="profile-color">{{ "feedback" | translate }}</h5>
+  <p class="profile-feedback">{{ "profile.feedback" | translate }}</p>
+  <textarea name="feedback" id="feedback" cols="60" rows="4"></textarea>
+</div>
+<hr>
+<div class="profile-form">
+  <h3>{{ "profile.alms-only" | translate }}:</h3>
+  <form class="pure-form pure-form-aligned">
+    <fieldset>
+      <div class="pure-control-group">
+        <label for="name">{{ "profile.name" | translate }}:</label>
+        <input type="text" id="name">
+      </div>
+      <div class="pure-control-group">
+        <label for="faculty">{{ "profile.faculty" | translate }}:</label>
+        <input type="text" id="faculty">
+      </div>
+      <div class="pure-control-group">
+        <label for="teacher"></label>
+        <select name="teacher" id="teacher">
+          <option value="">{{ "profile.select" | translate }}</option>
+          <option value="leena.karlsson@helsinki.fi">leena.karlsson@helsinki.fi</option>
+          <option value="kenneth.kidd@helsinki.fi">kenneth.kidd@helsinki.fi</option>
+          <option value="tom.toepfer@helsinki.fi">tom.toepfer@helsinki.fi</option>
+          <option value="satu.vonboehm@helsinki.fi">satu.vonboehm@helsinki.fi</option>
+          <option value="sandro.amendolara@helsinki.fi">sandro.amendolara@helsinki.fi</option>
+          <option value="kirby.vincent@helsinki.fi">kirby.vincent@helsinki.fi</option>
+          <option value="robert.moncrief@helsinki.fi">robert.moncrief@helsinki.fi</option>
+          <option value="fergal.bradley@helsinki.fi">fergal.bradley@helsinki.fi</option>
+          <option value="michele.simeon@helsinki.fi">michele.simeon@helsinki.fi</option>
+        </select>
+      </div>
+      <div class="pure-controls">
+        <label for="option-one" class="pure-checkbox">
+          <input id="option-one" type="checkbox" value="">
+            {{ "profile.no-teach" | translate }}
+        </label>
+      </div>
+      <div class="pure-controls">
+        <label for="t-email">{{ "profile.teach-email" | translate }}: </label>
+        <input type="email" id="t-email">
+      </div>
+      <div class="pure-controls">
+        <label for="t-email">{{ "profile.address" | translate }}</label>
+        <input type="email" id="t-email">
+      </div>
+      <div class="pure-controls">
+        <button type="submit" class="pure-button pure-button-primary">{{ "profile.send" | translate }}</button>
+        <button type="" class="pure-button pure-button-primary">{{ "profile.clear" | translate }}</button>
+      </div>
+
+
+
+    </fieldset>
+  </form>
+</div>
