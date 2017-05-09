@@ -3,33 +3,33 @@
   <div class="ref-bubbles">
     <div class="pure-g">
       <div class="pure-u-1-4">
-        <a (click)="showDetail(1)" [innerHTML]="'needs-ref.1' | translate"></a>
+        <a><span (click)="showDetail(1)" [innerHTML]="'needs-ref.1' | translate"></span></a>
         <div><img src="/assets/images/kupla_r1.gif" alt="speech bubble"></div>
       </div>
       <div class="pure-u-1-4">
-        <span (click)="showDetail(2)" [innerHTML]="'needs-ref.2' | translate"></span>
+        <a><span (click)="showDetail(2)" [innerHTML]="'needs-ref.2' | translate"></span></a>
         <div><img src="/assets/images/kupla_r2.gif" alt="speech bubble"></div>
       </div>
       <div class="pure-u-1-4">
-        <span (click)="showDetail(3)" [innerHTML]="'needs-ref.3' | translate"></span>
+        <a><span (click)="showDetail(3)" [innerHTML]="'needs-ref.3' | translate"></span></a>
         <div><img src="/assets/images/kupla_r3.gif" alt="speech bubble"></div>
       </div>
       <div class="pure-u-1-4">
-        <span (click)="showDetail(4)" [innerHTML]="'needs-ref.4' | translate"></span>
+        <a><span (click)="showDetail(4)" [innerHTML]="'needs-ref.4' | translate"></span></a>
         <div><img src="/assets/images/kupla_r1.gif" alt="speech bubble"></div>
       </div>
     </div>
     <div class="pure-g">
       <div class="pure-u-1-4">
-        <span (click)="showDetail(5)" [innerHTML]="'needs-ref.5' | translate"></span>
+        <a><span (click)="showDetail(5)" [innerHTML]="'needs-ref.5' | translate"></span></a>
         <div><img src="/assets/images/kupla_r2.gif" alt="speech bubble"></div>
       </div>
       <div class="pure-u-1-4">
-        <span (click)="showDetail(6)" [innerHTML]="'needs-ref.6' | translate"></span>
+        <a><span (click)="showDetail(6)" [innerHTML]="'needs-ref.6' | translate"></span></a>
         <div><img src="/assets/images/kupla_r3.gif" alt="speech bubble"></div>
       </div>
       <div class="pure-u-1-4">
-        <span (click)="showDetail(7)" [innerHTML]="'needs-ref.7' | translate"></span>
+        <a><span (click)="showDetail(7)" [innerHTML]="'needs-ref.7' | translate"></span></a>
         <div><img src="/assets/images/kupla_r1.gif" alt="speech bubble"></div>
       </div>
     </div>
@@ -41,6 +41,24 @@
     </div>
     <div class="pure-u-1-2">
       <div class="ref-response" [innerHTML]="target"></div>
+    </div>
+  </div>
+  <div class="pure-g comment-box">
+    <div class="pure-u-1-2">
+      <div class="inner-comment-box">
+        <p class="comment-box-header" [innerHTML]="'needs-ref.your-needs' | translate"></p>
+        <p [innerHTML]="'needs-ref.your-needs-text' | translate"></p>
+      </div>
+    </div>
+    <div class="pure-u-1-2">
+      <div class="inner-comment-box">
+        <div [innerHTML]="'needs-ref.save' | translate"></div>
+        <textarea name="needs" id="needs" cols="45" rows="4"></textarea>
+        <div>
+          <button [innerHTML]="'needs-ref.save-to' | translate"></button>
+          <button [innerHTML]="'needs-ref.clear' | translate"></button>
+        </div>
+      </div>
     </div>
   </div>
 </div>

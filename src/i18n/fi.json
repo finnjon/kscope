@@ -48,6 +48,11 @@
     "5": "Minun on parannettava sanavarastoani",
     "6": "Joudun kirjoittamaan graduni englanniksi",
     "7": "Minun on uskallettava avata suuni",
-    "click": "- Klikkaa kommenttia nähdäksesi vastauksen"
+    "click": "- Klikkaa kommenttia nähdäksesi vastauksen",
+    "your-needs": "TARPEESI",
+    "your-needs-text": "Kirjoita tähän tarpeistasi pohdittuasi Kaleidoskoopin vuoropuheluja. Klikkaa PROFIILIA niin voit lukea tekstisi kokonaan.",
+    "save": "Tallenna teksti AINA kirjoituksen jälkeen",
+    "save-to": "Tallenna profiilisi",
+    "clear" : "Tyhjennä"
   }
 }

@@ -2,6 +2,7 @@
 
 a {
   color: #ffffff;
+  cursor: pointer;
 }
 
 .intro-color { color: #666666}
@@ -88,4 +89,25 @@ a {
 .needs-ref-images {
   width: 40%;
   margin: 0 auto;
+}
+
+.comment-box {
+  background-color: #f0f0f0;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.inner-comment-box {
+  padding: 10px;
+}
+
+.comment-box-header {
+  color: #858585;
+  font-weight: bolder;
+}
+
+.comment-box div, .comment-box h4, .comment-box p {
+  font-family: verdana, arial !important;
+  font-size: 0.9em;
 }
