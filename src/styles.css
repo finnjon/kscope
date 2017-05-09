@@ -55,3 +55,37 @@ a {
   font-weight: bold;
   text-align: center;
 }
+
+/* Ref Styles */
+
+.ref-bubbles, .ref-bubbles a {
+  text-align: center;
+  margin: 20px 0 20px 0;
+  padding: 10px;
+  line-height: 15px;
+  font-size: 11px;
+  color: #999999;
+}
+
+.ref-bubbles div {
+  margin-bottom: 10px;
+}
+
+.ref-bubbles div div span {
+  padding: 10px 10px 0 10px;
+  font-family: verdana, arial !important;
+}
+
+.ref-response {
+  border-radius: 5px;
+  font-family: verdana, arial;
+  font-size: 0.8em;
+  margin-right: 40px;
+  padding: 15px;
+  line-height: 1.6em;
+}
+
+.needs-ref-images {
+  width: 40%;
+  margin: 0 auto;
+}

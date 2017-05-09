@@ -1,12 +1,46 @@
 <app-navbar></app-navbar>
-<div class="pure-g">
-  <div class="pure-u-1">
-    The bubbles go here.
+<div>
+  <div class="ref-bubbles">
+    <div class="pure-g">
+      <div class="pure-u-1-4">
+        <a (click)="showDetail(1)" [innerHTML]="'needs-ref.1' | translate"></a>
+        <div><img src="/assets/images/kupla_r1.gif" alt="speech bubble"></div>
+      </div>
+      <div class="pure-u-1-4">
+        <span (click)="showDetail(2)" [innerHTML]="'needs-ref.2' | translate"></span>
+        <div><img src="/assets/images/kupla_r2.gif" alt="speech bubble"></div>
+      </div>
+      <div class="pure-u-1-4">
+        <span (click)="showDetail(3)" [innerHTML]="'needs-ref.3' | translate"></span>
+        <div><img src="/assets/images/kupla_r3.gif" alt="speech bubble"></div>
+      </div>
+      <div class="pure-u-1-4">
+        <span (click)="showDetail(4)" [innerHTML]="'needs-ref.4' | translate"></span>
+        <div><img src="/assets/images/kupla_r1.gif" alt="speech bubble"></div>
+      </div>
+    </div>
+    <div class="pure-g">
+      <div class="pure-u-1-4">
+        <span (click)="showDetail(5)" [innerHTML]="'needs-ref.5' | translate"></span>
+        <div><img src="/assets/images/kupla_r2.gif" alt="speech bubble"></div>
+      </div>
+      <div class="pure-u-1-4">
+        <span (click)="showDetail(6)" [innerHTML]="'needs-ref.6' | translate"></span>
+        <div><img src="/assets/images/kupla_r3.gif" alt="speech bubble"></div>
+      </div>
+      <div class="pure-u-1-4">
+        <span (click)="showDetail(7)" [innerHTML]="'needs-ref.7' | translate"></span>
+        <div><img src="/assets/images/kupla_r1.gif" alt="speech bubble"></div>
+      </div>
+    </div>
   </div>
-</div>
-<div class="pure-g">
-  <div class="pure-u-1">
-    <img src="/assets/images/a_pieni_tarpeet.gif" alt="little picture">
-    <img src="/assets/images/a_ryhma_tarpeet.gif" alt="little picture">
+  <div class="pure-g">
+    <div class="pure-u-1-2 needs-ref-images">
+      <img src="/assets/images/a_pieni_tarpeet.gif" alt="little picture">
+      <img src="/assets/images/a_ryhma_tarpeet.gif" alt="little picture">
+    </div>
+    <div class="pure-u-1-2">
+      <div class="ref-response" [innerHTML]="target"></div>
+    </div>
   </div>
 </div>
