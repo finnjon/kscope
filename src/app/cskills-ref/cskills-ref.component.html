@@ -1,3 +1,92 @@
-<p>
-  cskills-ref works!
-</p>
+<app-navbar></app-navbar>
+<div>
+  <div class="ref-bubbles">
+    <div class="pure-g">
+      <div class="pure-u-1-4">
+        <a><span (click)="showDetail(1)" [innerHTML]="'cskills-ref.1' | translate"></span></a>
+        <div><img src="/assets/images/kupla_b1.gif" alt="speech bubble"></div>
+      </div>
+      <div class="pure-u-1-4">
+        <a><span (click)="showDetail(2)" [innerHTML]="'cskills-ref.2' | translate"></span></a>
+        <div><img src="/assets/images/kupla_b2.gif" alt="speech bubble"></div>
+      </div>
+      <div class="pure-u-1-4">
+        <a><span (click)="showDetail(3)" [innerHTML]="'cskills-ref.3' | translate"></span></a>
+        <div><img src="/assets/images/kupla_b3.gif" alt="speech bubble"></div>
+      </div>
+      <div class="pure-u-1-4">
+        <a><span (click)="showDetail(4)" [innerHTML]="'cskills-ref.4' | translate"></span></a>
+        <div><img src="/assets/images/kupla_b1.gif" alt="speech bubble"></div>
+      </div>
+    </div>
+    <div class="pure-g">
+      <div class="pure-u-1-4">
+        <a><span (click)="showDetail(5)" [innerHTML]="'cskills-ref.5' | translate"></span></a>
+        <div><img src="/assets/images/kupla_b2.gif" alt="speech bubble"></div>
+      </div>
+      <div class="pure-u-1-4">
+        <a><span (click)="showDetail(6)" [innerHTML]="'cskills-ref.6' | translate"></span></a>
+        <div><img src="/assets/images/kupla_b3.gif" alt="speech bubble"></div>
+      </div>
+      <div class="pure-u-1-4">
+        <a><span (click)="showDetail(7)" [innerHTML]="'cskills-ref.7' | translate"></span></a>
+        <div><img src="/assets/images/kupla_b1.gif" alt="speech bubble"></div>
+      </div>
+      <div class="pure-u-1-4">
+        <a><span (click)="showDetail(8)" [innerHTML]="'cskills-ref.8' | translate"></span></a>
+        <div><img src="/assets/images/kupla_b2.gif" alt="speech bubble"></div>
+      </div>
+    </div>
+    <div class="pure-g">
+      <div class="pure-u-1-4">
+        <a><span (click)="showDetail(9)" [innerHTML]="'cskills-ref.9' | translate"></span></a>
+        <div><img src="/assets/images/kupla_b3.gif" alt="speech bubble"></div>
+      </div>
+      <div class="pure-u-1-4">
+        <a><span (click)="showDetail(10)" [innerHTML]="'cskills-ref.10' | translate"></span></a>
+        <div><img src="/assets/images/kupla_b1.gif" alt="speech bubble"></div>
+      </div>
+      <div class="pure-u-1-4">
+        <a><span (click)="showDetail(11)" [innerHTML]="'cskills-ref.11' | translate"></span></a>
+        <div><img src="/assets/images/kupla_b2.gif" alt="speech bubble"></div>
+      </div>
+      <div class="pure-u-1-4">
+        <a><span (click)="showDetail(12)" [innerHTML]="'cskills-ref.12' | translate"></span></a>
+        <div><img src="/assets/images/kupla_b3.gif" alt="speech bubble"></div>
+      </div>
+    </div>
+    <div class="pure-g">
+      <div class="pure-u-1-4">
+        <a><span (click)="showDetail(13)" [innerHTML]="'cskills-ref.13' | translate"></span></a>
+        <div><img src="/assets/images/kupla_b1.gif" alt="speech bubble"></div>
+      </div>
+    </div>
+  </div>
+  <div class="pure-g">
+    <div class="pure-u-1-2 needs-ref-images">
+      <img src="/assets/images/a_pieni_taidot.gif" alt="little picture">
+      <img src="/assets/images/a_ryhma_taidot.gif" alt="little picture">
+    </div>
+    <div class="pure-u-1-2">
+      <div class="ref-response" [innerHTML]="target"></div>
+    </div>
+  </div>
+  <div class="pure-g comment-box">
+    <div class="pure-u-1-2">
+      <div class="inner-comment-box">
+        <p class="comment-box-header" [innerHTML]="'cskills-ref.your-skills' | translate"></p>
+        <p [innerHTML]="'cskills-ref.your-skills-text' | translate"></p>
+      </div>
+    </div>
+    <div class="pure-u-1-2">
+      <div class="inner-comment-box">
+        <div [innerHTML]="'ref-general.save' | translate"></div>
+        <textarea name="needs" id="needs" cols="45" rows="4"></textarea>
+        <div>
+          <button [innerHTML]="'ref-general.save-to' | translate"></button>
+          <button [innerHTML]="'ref-general.clear' | translate"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

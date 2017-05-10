@@ -40,6 +40,12 @@
     "send": "Send your profile",
     "clear": "clear"
   },
+  "ref-general": {
+    "click": "- Click on a comment to see a response",
+    "save": "ALWAYS save the text after writing",
+    "save-to": "Save to your profile",
+    "clear" : "Clear"
+  },
   "needs-ref": {
     "1": "I have to read a lot of text books and articles which are not in Finnish",
     "2": "I plan to be an exchange student",
@@ -48,11 +54,24 @@
     "5": "I need more words!",
     "6": "I have to write my thesis in English",
     "7": "I need to find the courage to open my mouth",
-    "click": "- Click on a comment to see a response",
     "your-needs": "YOUR NEEDS",
-    "your-needs-text": "Write about your own language needs after following the dialogues above. Click on YOUR PROFILE to read all you have written.",
-    "save": "ALWAYS save the text after writing",
-    "save-to": "Save to your profile",
-    "clear" : "Clear"
+    "your-needs-text": "Write about your own language needs after following the dialogues above. Click on YOUR PROFILE to read all you have written."
+  },
+  "cskills-ref": {
+    "1": "I understand almost everything but I can't say very much",
+    "2": "Are there any ways of evaluating my skills' levels online?",
+    "3": "I haven't used the language for a long time",
+    "4": "It's the teacher's job to tell me what my problems are",
+    "5": "I can't write at all",
+    "6": "Reading academic text books is terribly slow",
+    "7": "I know my pronunciation is terrible!",
+    "8": "My vocabulary is really poor",
+    "9": "I've forgotten the grammar",
+    "10": "I'm bad at remembering",
+    "11": "Listening to lyrics has improved my language",
+    "12": "I feel I can manage quite well",
+    "13": "I have difficulty understanding different accents",
+    "your-skills": "YOUR LANGUAGE SKILLS",
+    "your-skills-text": "Write about your own language skills after following the dialogues above. Click on YOUR PROFILE to read all you have written."
   }
 }

@@ -40,6 +40,12 @@
     "send": "Lähetä",
     "clear": "Tyhjennä"
   },
+  "ref-general": {
+      "click": "- Klikkaa kommenttia nähdäksesi vastauksen",
+      "save": "Tallenna teksti AINA kirjoituksen jälkeen",
+      "save-to": "Tallenna profiilisi",
+      "clear" : "Tyhjennä"
+  },
   "needs-ref": {
     "1": "Minun pitää lukea paljon vieraskielisiä tenttikirjoja ja artikkeleita",
     "2": "Suunnittelen opiskelijavaihtoon lähtöö",
@@ -48,11 +54,24 @@
     "5": "Minun on parannettava sanavarastoani",
     "6": "Joudun kirjoittamaan graduni englanniksi",
     "7": "Minun on uskallettava avata suuni",
-    "click": "- Klikkaa kommenttia nähdäksesi vastauksen",
     "your-needs": "TARPEESI",
-    "your-needs-text": "Kirjoita tähän tarpeistasi pohdittuasi Kaleidoskoopin vuoropuheluja. Klikkaa PROFIILIA niin voit lukea tekstisi kokonaan.",
-    "save": "Tallenna teksti AINA kirjoituksen jälkeen",
-    "save-to": "Tallenna profiilisi",
-    "clear" : "Tyhjennä"
+    "your-needs-text": "Kirjoita tähän tarpeistasi pohdittuasi Kaleidoskoopin vuoropuheluja. Klikkaa PROFIILIA niin voit lukea tekstisi kokonaan."
+  },
+  "cskills-ref": {
+    "1": "Ymmärrän kyllä melkein kaiken, mutta en osaa puhua juuri lainkaan",
+    "2": "Voiko taitojaan testata tietokoneella?",
+    "3": "En ole juurikaan käyttänyt kieltä lukion jälkeen",
+    "4": "Opettajan tehtävänä on osoittaa minulle ongelmani",
+    "5": "En osaa kirjoittaa",
+    "6": "Tenttikirjojen lukeminen on tavattoman hidasta",
+    "7": "Ääntämiseni on kammottavaa!",
+    "8": "Sanavarastoni on tosi pieni",
+    "9": "Olen unohtanut kaiken kieliopin",
+    "10": "Minulla on huono muisti",
+    "11": "Olen oppinut paljon kuuntemalla musiikkia ja sanoituksia",
+    "12": "Pärjään aika hyvin",
+    "13": "Eri aksentit tuottavat ongelmia",
+    "your-skills": "YOUR LANGUAGE SKILLS",
+    "your-skills-text": "Write about your own language skills after following the dialogues above. Click on YOUR PROFILE to read all you have written."
   }
 }
