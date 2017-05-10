@@ -1,3 +1,64 @@
-<p>
-  motivation-ref works!
-</p>
+<app-navbar></app-navbar>
+<div>
+  <div class="ref-bubbles">
+    <div class="pure-g">
+      <div class="pure-u-1-4">
+        <a><span (click)="showDetail(1)" [innerHTML]="'motiv-ref.1' | translate"></span></a>
+        <div><img src="/assets/images/kupla_m1.gif" alt="speech bubble"></div>
+      </div>
+      <div class="pure-u-1-4">
+        <a><span (click)="showDetail(2)" [innerHTML]="'motiv-ref.2' | translate"></span></a>
+        <div><img src="/assets/images/kupla_m2.gif" alt="speech bubble"></div>
+      </div>
+      <div class="pure-u-1-4">
+        <a><span (click)="showDetail(3)" [innerHTML]="'motiv-ref.3' | translate"></span></a>
+        <div><img src="/assets/images/kupla_m3.gif" alt="speech bubble"></div>
+      </div>
+      <div class="pure-u-1-4">
+        <a><span (click)="showDetail(4)" [innerHTML]="'motiv-ref.4' | translate"></span></a>
+        <div><img src="/assets/images/kupla_m1.gif" alt="speech bubble"></div>
+      </div>
+    </div>
+    <div class="pure-g">
+      <div class="pure-u-1-4">
+        <a><span (click)="showDetail(5)" [innerHTML]="'motiv-ref.5' | translate"></span></a>
+        <div><img src="/assets/images/kupla_m2.gif" alt="speech bubble"></div>
+      </div>
+      <div class="pure-u-1-4">
+        <a><span (click)="showDetail(6)" [innerHTML]="'motiv-ref.6' | translate"></span></a>
+        <div><img src="/assets/images/kupla_m3.gif" alt="speech bubble"></div>
+      </div>
+      <div class="pure-u-1-4">
+        <a><span (click)="showDetail(7)" [innerHTML]="'motiv-ref.7' | translate"></span></a>
+        <div><img src="/assets/images/kupla_m1.gif" alt="speech bubble"></div>
+      </div>
+    </div>
+  </div>
+  <div class="pure-g">
+    <div class="pure-u-1-2 needs-ref-images">
+      <img src="/assets/images/a_pieni_motivaatio.gif" alt="little picture">
+      <img src="/assets/images/a_ryhma_motivaatio.gif" alt="little picture">
+    </div>
+    <div class="pure-u-1-2">
+      <div class="ref-response" [innerHTML]="target"></div>
+    </div>
+  </div>
+  <div class="pure-g comment-box">
+    <div class="pure-u-1-2">
+      <div class="inner-comment-box">
+        <p class="comment-box-header" [innerHTML]="'motiv-ref.your-motiv' | translate"></p>
+        <p [innerHTML]="'motiv-ref.your-motiv-text' | translate"></p>
+      </div>
+    </div>
+    <div class="pure-u-1-2">
+      <div class="inner-comment-box">
+        <div [innerHTML]="'ref-general.save' | translate"></div>
+        <textarea name="needs" id="needs" cols="45" rows="4"></textarea>
+        <div>
+          <button [innerHTML]="'ref-general.save-to' | translate"></button>
+          <button [innerHTML]="'ref-general.clear' | translate"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

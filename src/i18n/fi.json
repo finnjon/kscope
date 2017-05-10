@@ -73,5 +73,16 @@
     "13": "Eri aksentit tuottavat ongelmia",
     "your-skills": "YOUR LANGUAGE SKILLS",
     "your-skills-text": "Write about your own language skills after following the dialogues above. Click on YOUR PROFILE to read all you have written."
+  },
+  "motiv-ref": {
+    "1": "Opiskelen kieliä vain siksi, että ne ovat pakollisia",
+    "2": "Minusta on mukavaa tutustua muunmaalaisiin ihmisiin",
+    "3": "Hyvä kielitaito auttaa kunnon työpaikan saamisessa",
+    "4": "On mukavaa matkustella ja tavata uusia ihmisiä",
+    "5": "En ole koskaan ollut hyvä kielissä",
+    "6": "Minulla ei ole aikaa",
+    "7": "Tulevassa työssäni ei tarvita kieliä",
+    "your-motiv": "MOTIVAATIOSI",
+    "your-motiv-text": "Kirjoita motivaatiostasi ja motivoitumisestasi pohdittuasi Kaleidoskoopin vuoropuheluja. Klikkaa PROFIILIA niin voit lukea tekstisi kokonaan."
   }
 }

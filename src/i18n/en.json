@@ -73,5 +73,16 @@
     "13": "I have difficulty understanding different accents",
     "your-skills": "YOUR LANGUAGE SKILLS",
     "your-skills-text": "Write about your own language skills after following the dialogues above. Click on YOUR PROFILE to read all you have written."
+  },
+  "motiv-ref": {
+    "1": "I'm only studying<br> languages because I have to",
+    "2": "I like to get to know<br> people from other countries",
+    "3": "Being good at languages is one way to be sure of getting a good job",
+    "4": "I love to travel and meet people",
+    "5": "I've never been a good language learner",
+    "6": "I haven't time",
+    "7": "I won't need languages in my future job",
+    "your-motiv": "YOUR MOTIVATION",
+    "your-motiv-text": "Write about your own motivation after following the dialogues above. Click on YOUR PROFILE to read all you have written."
   }
 }
