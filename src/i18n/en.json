@@ -84,5 +84,35 @@
     "7": "I won't need languages in my future job",
     "your-motiv": "YOUR MOTIVATION",
     "your-motiv-text": "Write about your own motivation after following the dialogues above. Click on YOUR PROFILE to read all you have written."
+  },
+  "personality-ref": {
+    "1": "I worry a lot about making mistakes",
+    "2": "I want to have everything clear in my head before I speak",
+    "3": "I think that people will laugh at the way I speak",
+    "4": "It helps me to remember words if I see the words written down",
+    "5": "I like to observe the patterns and structures in language",
+    "6": "I need to understand the grammar before I start to use the language",
+    "7": "I'm not afraid to just jump in and have a go",
+    "8": "I like to learn language by just listening, noticing new things and using them",
+    "9": "I'm very shy and don't like to speak up",
+    "10": "I compare myself with others a lot",
+    "your-personality": "YOUR PERSONALITY",
+    "your-personality-text": "Write about your own personality. How does it affect your learning? Click on YOUR PROFILE to read all you have written."
+  },
+  "lhistory-ref": {
+    "1": "I only studied English and Swedish at school",
+    "2": "I've always relied on teachers' evaluation",
+    "3": "I've always enjoyed learning languages",
+    "4": "School was about grammar and vocabulary",
+    "5": "I've never thought of myself as a language learner",
+    "6": "I have bad memories from language classes at school",
+    "7": "I've had so little practice in actually using languages",
+    "8": "We always used different languages at home",
+    "9": "I have always had a lot of international friends",
+    "10": "I had a fantastic teacher",
+    "11": "It's a long time since I studied languages and in those days there was hardly any talking done.",
+    "12": "I fear speaking and feel anxious when I have to!",
+    "your-lhistory": "YOUR LANGUAGE LEARNING HISTORY",
+    "your-lhistory-text": "Write your personal history of language learning. How has it affected you? Click on YOUR PROFILE to read all you have written."
   }
 }
