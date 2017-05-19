@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from 'ng2-translate';
+import { ProfileService } from '../profile.service';
 
 @Component({
   selector: 'app-needs-ref',
@@ -7,14 +8,23 @@ import { TranslateService } from 'ng2-translate';
   styleUrls: ['./needs-ref.component.css']
 })
 export class NeedsRefComponent implements OnInit {
-  target = "- Click on a comment to see a response";
 
-  constructor(private translate: TranslateService) {}
+  target = "- Click on a comment to see a response";
+  profile = [];
+
+  constructor(
+    private translate: TranslateService,
+    private profileService: ProfileService
+  ) {}
 
   ngOnInit() {
     this.translate.onLangChange.subscribe((event) => {
       this.showDetail(null);
     });
+  }
+
+  onSubmit(formData) {
+    this.profileService.profile.needs = formData.needs;
   }
 
   showDetail = function (num) {

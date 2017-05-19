@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from 'ng2-translate';
+import { ProfileService } from '../profile.service';
 
 @Component({
   selector: 'app-motivation-ref',
@@ -8,13 +9,21 @@ import { TranslateService } from 'ng2-translate';
 })
 export class MotivationRefComponent implements OnInit {
   target = "- Click on a comment to see a response";
+  profile = [];
 
-  constructor(private translate: TranslateService) {}
+  constructor(
+    private translate: TranslateService,
+    private profileService: ProfileService
+  ) {}
 
   ngOnInit() {
     this.translate.onLangChange.subscribe((event) => {
       this.showDetail(null);
     });
+  }
+
+  onSubmit(formData) {
+    this.profileService.profile.motivation = formData.motivation;
   }
 
   showDetail = function (num) {

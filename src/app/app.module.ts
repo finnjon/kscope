@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { Routes, RouterModule } from '@angular/router';
 import { TranslateModule } from "ng2-translate";
+import { ProfileService } from "./profile.service";
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -59,7 +60,7 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes),
     TranslateModule.forRoot()
   ],
-  providers: [],
+  providers: [ProfileService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

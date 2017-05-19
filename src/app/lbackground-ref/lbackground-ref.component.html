@@ -75,11 +75,13 @@
     <div class="pure-u-1-2">
       <div class="inner-comment-box">
         <div [innerHTML]="'ref-general.save' | translate"></div>
-        <textarea name="needs" id="needs" cols="45" rows="4"></textarea>
-        <div>
-          <button [innerHTML]="'ref-general.save-to' | translate"></button>
-          <button [innerHTML]="'ref-general.clear' | translate"></button>
-        </div>
+        <form (ngSubmit)="onSubmit(f.value)" #f="ngForm">
+          <textarea name="lhistory" [(ngModel)]="profile.lhistory" id="lhistory" cols="45" rows="4"></textarea>
+          <div>
+            <button type="submit" [innerHTML]="'ref-general.save-to' | translate"></button>
+            <button (click)="this.profile.lhistory = null" [innerHTML]="'ref-general.clear' | translate"></button>
+          </div>
+        </form>
       </div>
     </div>
   </div>
