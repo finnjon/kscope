@@ -11,6 +11,7 @@ export class NeedsRefComponent implements OnInit {
 
   target = "- Click on a comment to see a response";
   profile = [];
+  sound = null;
 
   constructor(
     private translate: TranslateService,
@@ -32,29 +33,38 @@ export class NeedsRefComponent implements OnInit {
       switch (num) {
       case 1:
         this.target = "- You have a clear need on which you can base a plan to develop your academic reading skills. Perhaps you could benefit from a reading group which may introduce you to strategies that can make you a more efficient reader. Alternatively,  in the <a href='http://kielikeskus.helsinki.fi/vkk/rr' target='_blank'>Reading Room</a> on the internet, you will find ideas on how to improve your English reading skills (the website is mainly in Finnish).";
+        this.sound = "needs-readalot";
         break;
       case 2:
         this.target = "- If possible, register on a course especially aimed at students going on exchange programmes. Find out all you can about the culture of your target country and consider attending an intercultural communication group. Find out about the academic culture of the institution you're going to, and think about how you will be using the language (attending lectures, writing papers).  Are you aware of your skills level, as a starting point evaluate your skills with the help of the <a href='http://www.coe.int/t/dg4/education/elp/elp-reg/Source/assessement_grid/assessment_grid_english.pdf' target='_blank'>Common European Framework of Reference Self-Assessment Grid</a> and try to get and reflect upon feedback.";
+        this.sound = "needs-exchange";
         break;
       case 3:
         this.target = "Think carefully about what exactly you'd like to work on, and why. Does a lack of self-confidence interfere with communication? If so, what are the reasons behind this?  Do you rarely have the opportunity of talking in the target language?  Or do you feel the need to work specifically on your pronunciation?  Perhaps you could consider joining an oral skills or discussion group. You could also focus on your pronunciation  on the internet, both by listening to good speakers and by actively working on stress and intonation. Most importantly, lower the threshold and talk whenever the opportunity arises, also in situations beyond the classroom.";
+        this.sound = "needs-morefluent";
         break;
       case 4:
         this.target = "Feeling at home in a different cultural context to some degree goes beyond the level of  one's language skills: you may feel that your social skills are not as efficient as they are back home. Attending an intercultural communication group would be beneficial. You would acquire tools that can help you to adapt to and understand your target culture, which in turn will enrichen your experience and enhance any form of interaction.";
+        this.sound = "needs-intlsetting";
         break;
       case 5:
         this.target = "The vocabulary you have is made up of different items: some words you simply recognise when you're reading or listening, while others you can actively use when speaking or writing yourself. You are the one who knows best how well you need to know any particular word.  You can widen your active vocabulary range both by gaining confidence with your passive word base, and by noticing, and being selective with,  new words that you come across  You should try to use new words when offered the possibility. If you lack real-life opportunities, memory strategies can help you learn the words.";
+        this.sound = "needs-morewords";
         break;
       case 6:
         this.target = "Academic writing has norms that you need to follow. Keep cultural differences in mind i.e. Finnish academic writing may follow different criteria to Anglo-American academic writing. You could ideally attend an academic writing group, but you may also learn much from paying attention to the structure, style and vocabulary of articles written in your field.";
+        this.sound = "needs-thesis";
         break;
       case 7:
         this.target = "You might be able to reduce your anxiety by preparing in advance for speaking situations. Reading, listening and writing all help to prepare you for speech. Get used to hearing yourself speak by reading out loud and talking to yourself, inwardly or outwardly. Try speaking in one-to-one situations before you speak up in public. Gradually you will become more courageous and able to enjoy taking part in all sorts of discussions.";
+        this.sound = "needs-courage";
         break;
       default:
-        this.target = "- Click on a comment to see a response"
+        this.target = "- Click on a comment to see a response";
+        this.sound = null;
       }
     } else if (this.translate.currentLang === "fi") {
+      this.sound = null;
       switch (num) {
       case 1:
         this.target = "- Sinulla on selkeä tarve, jonka pohjalta voit tehdä tavoitteellisen suunnitelman akateemisen lukemisen vahvistamiseen. Mieti olisiko kurssi tarpeen vai pystyisitkö itse nostamaan taitosi tarvittavalle tasolle. Tutustu <a href='http://kielikeskus.helsinki.fi/vkk/rr' target='_blank'>Reading Roomiin</a> verkossa saat ideoita lukutaitojesi parantamiseen erityisesti englannin osalta tai käy <a href='http://h27.it.helsinki.fi/spraknat/' target='_blank'>Språknåt-sivuilla</a>, jos haluat apua ruotsinkielisten kirjojen lukemiseen.";

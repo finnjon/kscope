@@ -40,6 +40,10 @@
       <img src="/assets/images/a_ryhma_motivaatio.gif" alt="little picture">
     </div>
     <div class="pure-u-1-2">
+      <div *ngIf="sound != null">
+        <audio id="sounds" src="./assets/sounds2016/kaleidoscope-{{ sound }}.mp3"></audio>
+        <img src="https://maxcdn.icons8.com/windows8/PNG/26/Media_Controls/volume_up-26.png" title="High Volume" width="20" onclick="document.getElementById('sounds').play()">
+      </div>
       <div class="ref-response" [innerHTML]="target"></div>
     </div>
   </div>

@@ -6,6 +6,10 @@
     <img src="assets/images/purple-woman.gif" alt="picture of red woman on phone" class="skill-left-image">
   </div>
   <div class="pure-u-1 pure-u-md-3-5 skill-right">
+    <div>
+      <audio id="sounds" src="./assets/sounds2016/kaleidoscope-mot-main.mp3"></audio>
+      <img src="https://maxcdn.icons8.com/windows8/PNG/26/Media_Controls/volume_up-26.png" title="High Volume" width="20" onclick="document.getElementById('sounds').play()">
+    </div>
     <div class="skill-right-text motivation1" [innerHTML]="'motivation1.text' | translate">
     </div>
     <div class="click-here" routerLink="reflect">
