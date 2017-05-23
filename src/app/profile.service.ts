@@ -1,10 +1,10 @@
 export class ProfileService {
   profile = {
-    needs: 'empty',
-    cskills: 'empty',
-    motivation: 'empty',
-    personality: 'empty',
-    lhistory: 'empty'
+    needs: '',
+    cskills: '',
+    motivation: '',
+    personality: '',
+    lhistory: ''
   }
 
   getProfile() {
