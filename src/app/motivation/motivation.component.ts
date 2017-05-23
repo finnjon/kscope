@@ -8,7 +8,7 @@ import { TranslateService } from 'ng2-translate';
 })
 export class MotivationComponent implements OnInit {
 
-  constructor(private translate: TranslateService) { }
+  constructor(public translate: TranslateService) { }
 
   ngOnInit() {
   }

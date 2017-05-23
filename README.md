@@ -1,32 +1,15 @@
-# Kscope
+# Kaleidoscope
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+This code comprises the entirety of the Kaleidoscope website. Kaleidoscope is an almost entirely front-end app that enables students to reflect on what kind of learner they are and if they wish, to send their reflections to themselves and their teacher at the University of Helsinki Language Centre.
 
-## Development server
+## Engineering
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+The site has been built using angular 4.0 (using the angular cli) with a node server on the backend used only for sending emails. The texts can be found in the i18n folder in Finnish and English and can be amended there. Additional texts can be found in each of the components for the various sections. For example, personality-ref, needs-ref, motivation-ref and so on. These are the only places where texts exist and they can be edited there directly.
 
 ## CSS
 
 This project uses pureCSS mostly for the grid.
 
-## Further help
+## Acknowledgements
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+The site was rebuilt from the original design by Jonathon Martin (jonathondsmartin@gmail.com). The images were taken from the original site but many have been replaced with css. The audio files were also produced by Jonathon Martin.

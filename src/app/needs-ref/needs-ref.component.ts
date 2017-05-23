@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from 'ng2-translate';
 import { ProfileService } from '../profile.service';
+import { Profile } from '../profile';
 
 @Component({
   selector: 'app-needs-ref',
@@ -10,7 +11,7 @@ import { ProfileService } from '../profile.service';
 export class NeedsRefComponent implements OnInit {
 
   target = "- Click on a comment to see a response";
-  profile = [];
+  profile: Profile;
   sound = null;
 
   constructor(
@@ -22,6 +23,7 @@ export class NeedsRefComponent implements OnInit {
     this.translate.onLangChange.subscribe((event) => {
       this.showDetail(null);
     });
+    this.profile = this.profileService.profile;
   }
 
   onSubmit(formData) {
