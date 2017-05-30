@@ -6,6 +6,10 @@ This code comprises the entirety of the Kaleidoscope website. Kaleidoscope is an
 
 The site has been built using angular 4.0 (using the angular cli) with a node server on the backend used only for sending emails. The texts can be found in the i18n folder in Finnish and English and can be amended there. Additional texts can be found in each of the components for the various sections. For example, personality-ref, needs-ref, motivation-ref and so on. These are the only places where texts exist and they can be edited there directly.
 
+## emails
+
+When the profile is complete it is sent using node/express and a gmail account I set up to send the emails. This very basic node server is found in the server folder under app.js. The credentials for the gmail account are in there.
+
 ## CSS
 
 This project uses pureCSS mostly for the grid.
