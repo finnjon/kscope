@@ -20,8 +20,8 @@ function handleSendProfile(req, res) {
 	var transporter = nodemailer.createTransport({
 		service: 'Gmail',
 		auth: {
-			user: 'jonathondsmartin@gmail.com', // Your email id
-			pass: 'mav5mcfly' // Your password
+			user: 'helsinkikaleidoscope@gmail.com', // Your email id
+			pass: 'kaleidoskooppi' // Your password
 		}
 	});
 	var mailOptions = {
