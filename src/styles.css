@@ -23,6 +23,10 @@ a {
   width: 50%;
 }
 
+ .skill-right img {
+   cursor: pointer;
+ }
+
 .skill-right-text {
   padding: 20px;
   font-family: verdana;
@@ -55,6 +59,7 @@ a {
   margin: 0 auto;
   font-weight: bold;
   text-align: center;
+  cursor: pointer;
 }
 
 /* Ref Styles */

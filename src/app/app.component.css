@@ -1,6 +1,6 @@
 .container {
   border: 1px solid #999999;
-  margin: 20px auto;
+  margin: 0px auto 20px auto;
   max-width: 960px;
 }
 
@@ -19,13 +19,6 @@
   display: inline-block;
 }
 
-.english {
-  line-height: 20px;
-  float: right;
-  width: 80px;
-  text-align: center;
-}
-
 .left-lbar {
   height: 20px;
   width: 200px;
@@ -37,9 +30,9 @@
   display: inline-block;
 }
 
-.suomeksi {
+.language {
+  color: #000000;
   line-height: 20px;
-  display: inline-block;
   float: right;
   width: 80px;
   text-align: center;

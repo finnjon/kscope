@@ -25,6 +25,10 @@
   font-weight: 500;
 }
 
+.needs, .cskills, .motivation, .personality, .lbackground {
+  cursor: pointer;
+}
+
 .needs { color: #cc0000 }
 .cskills { color: #3333d6 }
 .motivation { color: #cc00cc }
