@@ -13,6 +13,7 @@ export class NeedsRefComponent implements OnInit {
   target = "- Click on a comment to see a response";
   profile: Profile;
   sound = null;
+  showSuccess = false;
 
   constructor(
     private translate: TranslateService,
@@ -28,6 +29,10 @@ export class NeedsRefComponent implements OnInit {
 
   onSubmit(formData) {
     this.profileService.profile.needs = formData.needs;
+    this.showSuccess = true;
+    setTimeout(() => {
+      this.showSuccess = false;
+    }, 2000);
   }
 
   showDetail = function (num) {

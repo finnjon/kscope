@@ -59,6 +59,7 @@
         <div [innerHTML]="'ref-general.save' | translate"></div>
         <form (ngSubmit)="onSubmit(f.value)" #f="ngForm">
           <textarea name="needs" [(ngModel)]="profile.needs" id="needs" cols="45" rows="4"></textarea>
+          <div class="successful" *ngIf="showSuccess">Successfully added to profile.</div>
           <div>
             <button type="submit" [innerHTML]="'ref-general.save-to' | translate"></button>
             <button (click)="this.profile.needs = null" [innerHTML]="'ref-general.clear' | translate"></button>
