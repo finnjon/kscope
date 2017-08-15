@@ -93,8 +93,9 @@
           name="studentEmail">
       </div>
       <div class="pure-controls">
-        <button type="submit" class="pure-button pure-button-primary">{{ "profile.send" | translate }}</button>
-        <button type="" class="pure-button pure-button-primary">{{ "profile.clear" | translate }}</button>
+        <button *ngIf="!submitted" type="submit" class="pure-button pure-button-primary">{{ "profile.send" | translate }}</button>
+        <button *ngIf="submitted" type="button" class="pure-button button-success">{{ "profile.sent" | translate }}</button>
+        <button *ngIf="!submitted" type="button" (click)="f.resetForm()" class="pure-button pure-button-primary">{{ "profile.clear" | translate }}</button>
       </div>
 
 

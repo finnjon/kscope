@@ -38,6 +38,7 @@
     "teach-email": "Write your teacher's email here",
     "address": "Write your email address here. Send it and you will get a response.",
     "send": "Send your profile",
+    "sent": "Profile Sent",
     "clear": "clear"
   },
   "ref-general": {
@@ -55,7 +56,7 @@
     "6": "I have to write my thesis in English",
     "7": "I need to find the courage to open my mouth",
     "your-needs": "YOUR NEEDS",
-    "your-needs-text": "Write about your own language needs after following the dialogues above. Click on YOUR PROFILE to read all you have written."
+    "your-needs-text": "Write about your own language needs after following the dialogues above. Click on MY PROFILE to read all you have written."
   },
   "cskills-ref": {
     "1": "I understand almost everything but I can't say very much",
@@ -72,7 +73,7 @@
     "12": "I feel I can manage quite well",
     "13": "I have difficulty understanding different accents",
     "your-skills": "YOUR LANGUAGE SKILLS",
-    "your-skills-text": "Write about your own language skills after following the dialogues above. Click on YOUR PROFILE to read all you have written."
+    "your-skills-text": "Write about your own language skills after following the dialogues above. Click on MY PROFILE to read all you have written."
   },
   "motiv-ref": {
     "1": "I'm only studying<br> languages because I have to",
@@ -83,7 +84,7 @@
     "6": "I haven't time",
     "7": "I won't need languages in my future job",
     "your-motiv": "YOUR MOTIVATION",
-    "your-motiv-text": "Write about your own motivation after following the dialogues above. Click on YOUR PROFILE to read all you have written."
+    "your-motiv-text": "Write about your own motivation after following the dialogues above. Click on MY PROFILE to read all you have written."
   },
   "personality-ref": {
     "1": "I worry a lot about making mistakes",
@@ -97,7 +98,7 @@
     "9": "I'm very shy and don't like to speak up",
     "10": "I compare myself with others a lot",
     "your-personality": "YOUR PERSONALITY",
-    "your-personality-text": "Write about your own personality. How does it affect your learning? Click on YOUR PROFILE to read all you have written."
+    "your-personality-text": "Write about your own personality. How does it affect your learning? Click on MY PROFILE to read all you have written."
   },
   "lhistory-ref": {
     "1": "I only studied English and Swedish at school",
@@ -113,6 +114,6 @@
     "11": "It's a long time since I studied languages and in those days there was hardly any talking done.",
     "12": "I fear speaking and feel anxious when I have to!",
     "your-lhistory": "YOUR LANGUAGE LEARNING HISTORY",
-    "your-lhistory-text": "Write your personal history of language learning. How has it affected you? Click on YOUR PROFILE to read all you have written."
+    "your-lhistory-text": "Write your personal history of language learning. How has it affected you? Click on MY PROFILE to read all you have written."
   }
 }

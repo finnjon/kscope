@@ -11,6 +11,7 @@ import { Http } from '@angular/http';
 export class ProfileComponent implements OnInit {
   profile;
   feedback;
+  submitted: Boolean = false;
 
   constructor(
     public profileService: ProfileService,
@@ -30,7 +31,7 @@ export class ProfileComponent implements OnInit {
       .subscribe(
         (response) => console.log("message sent"),
         (error) => console.log("message failed"),
-        () => console.log("and then this")
+        () => this.submitted = true
       );
   }
 

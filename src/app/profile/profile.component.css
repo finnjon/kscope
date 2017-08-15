@@ -1,7 +1,10 @@
+textarea {
+  margin-bottom: 20px;
+}
+
 .profile-intro {
-  font-family: verdana;
-  font-size: 0.8em;
-  padding: 20px;
+  font-size: 0.88em;
+  padding: 20px 20px 0 20px;
 }
 
 .profile-block {
@@ -12,12 +15,23 @@
   min-height: 120px;
 }
 
+.profile-block p {
+  font-size: 0.8em;
+  font-weight: normal;
+}
+
 .profile-feedback {
-  font-family: verdana;
   font-size: 0.8em;
 }
 
 .profile-form {
   font-size: 0.8em;
   margin-left:20px;
+}
+
+.button-success {
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: rgb(28, 184, 65); 
 }

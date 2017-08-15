@@ -74,8 +74,8 @@
         <form (ngSubmit)="onSubmit(f.value)" #f="ngForm">
           <textarea name="personality" [(ngModel)]="profile.personality" id="personality" cols="45" rows="4"></textarea>
           <div>
-            <button type="submit" [innerHTML]="'ref-general.save-to' | translate"></button>
-            <button (click)="this.profile.personality = null" [innerHTML]="'ref-general.clear' | translate"></button>
+            <button class="pure-button pure-button-primary" type="submit" [innerHTML]="'ref-general.save-to' | translate"></button>
+            <button class="pure-button pure-button-primary" (click)="this.profile.personality = null" [innerHTML]="'ref-general.clear' | translate"></button>
           </div>
         </form>
       </div>

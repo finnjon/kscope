@@ -1,5 +1,8 @@
 /* General */
 
+body { font-family: 'Roboto', sans-serif; }
+
+
 a {
   color: #ffffff;
   cursor: pointer;
@@ -13,6 +16,8 @@ a {
 .lhistory-color { color: #FCDC01}
 .profile-color { color: #666666}
 
+textarea { padding: 10px }
+
 /*Skill Styles*/
 
 .skill-left, .skill-right {
@@ -23,14 +28,13 @@ a {
   width: 50%;
 }
 
- .skill-right img {
+.skill-right img {
    cursor: pointer;
- }
+}
 
 .skill-right-text {
   padding: 20px;
-  font-family: verdana;
-  font-size: 0.8em;
+  font-size: 0.9em;
   border-radius: 5px;
   line-height: 1.5;
 }
@@ -45,8 +49,7 @@ a {
   bottom: 0;
   margin-top: 20px;
   padding: 10px;
-  background-color: #f0f0f0;
-  font-family: verdana;
+  background-color: #cccccc;
   font-size: 0.8em;
   color: #000000;
   border-radius: 5px;
@@ -79,12 +82,10 @@ a {
 
 .ref-bubbles div div span {
   padding: 10px 10px 0 10px;
-  font-family: verdana, arial !important;
 }
 
 .ref-response {
   border-radius: 5px;
-  font-family: verdana, arial;
   font-size: 0.8em;
   margin-right: 40px;
   padding: 15px;
@@ -103,6 +104,10 @@ a {
   padding: 10px;
 }
 
+.comment-box textarea {
+  border-radius: 5px;
+}
+
 .inner-comment-box {
   padding: 10px;
 }
@@ -113,6 +118,6 @@ a {
 }
 
 .comment-box div, .comment-box h4, .comment-box p {
-  font-family: verdana, arial !important;
-  font-size: 0.9em;
+  font-size: 0.97em;
+  line-height: 1.4em; 
 }
