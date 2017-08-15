@@ -26,10 +26,11 @@ export class ProfileComponent implements OnInit {
     submission.profile = this.profileService.profile;
     submission.feedback = this.feedback;
     console.log(submission);
-    this.http.post('http://localhost:3000/sendProfile', submission)
+    this.http.post('https://jons-email-server.appspot.com/sendProfile', submission)
       .subscribe(
-        (response) => console.log(response),
-        (error) => console.log(error)
+        (response) => console.log("message sent"),
+        (error) => console.log("message failed"),
+        () => console.log("and then this")
       );
   }
 
