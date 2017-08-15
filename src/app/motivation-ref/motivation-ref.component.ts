@@ -12,6 +12,7 @@ export class MotivationRefComponent implements OnInit {
   target = "- Click on a comment to see a response";
   profile: Profile;
   sound = null;
+  showSuccess: Boolean = false;
 
   constructor(
     private translate: TranslateService,
@@ -27,6 +28,10 @@ export class MotivationRefComponent implements OnInit {
 
   onSubmit(formData) {
     this.profileService.profile.motivation = formData.motivation;
+    this.showSuccess = true;
+    setTimeout(() => {
+      this.showSuccess = false;
+    }, 2000);
   }
 
   showDetail = function (num) {

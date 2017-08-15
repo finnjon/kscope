@@ -121,3 +121,13 @@ textarea { padding: 10px }
   font-size: 0.97em;
   line-height: 1.4em; 
 }
+
+.successful {
+  padding: 6px;
+  background-color: #009933;
+  width: 150px;
+  text-align: center;
+  color: white;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}

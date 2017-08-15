@@ -13,7 +13,7 @@ export class NeedsRefComponent implements OnInit {
   target = "- Click on a comment to see a response";
   profile: Profile;
   sound = null;
-  showSuccess = false;
+  showSuccess: Boolean = false;
 
   constructor(
     private translate: TranslateService,

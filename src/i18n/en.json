@@ -45,7 +45,8 @@
     "click": "- Click on a comment to see a response",
     "save": "ALWAYS save the text after writing",
     "save-to": "Save to your profile",
-    "clear" : "Clear"
+    "clear" : "Clear",
+    "success" : "Successfully added"
   },
   "needs-ref": {
     "1": "I have to read a lot of text books and articles which are not in Finnish",

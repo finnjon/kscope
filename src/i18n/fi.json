@@ -45,7 +45,8 @@
       "click": "- Klikkaa kommenttia nähdäksesi vastauksen",
       "save": "Tallenna teksti AINA kirjoituksen jälkeen",
       "save-to": "Tallenna profiilisi",
-      "clear" : "Tyhjennä"
+      "clear" : "Tyhjennä",
+      "success" : "lisätty onnistuneesti"
   },
   "needs-ref": {
     "1": "Minun pitää lukea paljon vieraskielisiä tenttikirjoja ja artikkeleita",

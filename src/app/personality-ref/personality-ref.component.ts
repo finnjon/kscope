@@ -9,10 +9,10 @@ import { Profile } from '../profile';
   styleUrls: ['./personality-ref.component.css']
 })
 export class PersonalityRefComponent implements OnInit {
-
   target = "- Click on a comment to see a response";
   profile: Profile;
   sound = null;
+  showSuccess: Boolean = false;
 
   constructor(
     private translate: TranslateService,
@@ -28,6 +28,10 @@ export class PersonalityRefComponent implements OnInit {
 
   onSubmit(formData) {
     this.profileService.profile.personality = formData.personality;
+    this.showSuccess = true;
+    setTimeout(() => {
+      this.showSuccess = false;
+    }, 2000);
   }
 
   showDetail = function (num) {

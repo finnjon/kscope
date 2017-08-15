@@ -9,10 +9,10 @@ import { Profile } from '../profile';
   styleUrls: ['./lbackground-ref.component.css']
 })
 export class LBackgroundRefComponent implements OnInit {
-
   target = "- Click on a comment to see a response";
   profile: Profile;
   sound = null;
+  showSuccess: Boolean = false;
 
   constructor(
     private translate: TranslateService,
@@ -28,6 +28,10 @@ export class LBackgroundRefComponent implements OnInit {
 
   onSubmit(formData) {
     this.profileService.profile.lhistory = formData.lhistory;
+    this.showSuccess = true;
+    setTimeout(() => {
+      this.showSuccess = false;
+    }, 2000);
   }
 
   showDetail = function (num) {
