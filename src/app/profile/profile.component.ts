@@ -11,7 +11,13 @@ import { Http } from '@angular/http';
 export class ProfileComponent implements OnInit {
   profile;
   feedback;
+  faculty;
+  teacher;
+  teacherEmail;
+  studentEmail;
+  studentName;
   submitted: Boolean = false;
+
 
   constructor(
     public profileService: ProfileService,

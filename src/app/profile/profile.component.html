@@ -29,7 +29,6 @@
 <hr>
 <div class="profile-form">
   <h3>{{ "profile.alms-only" | translate }}:</h3>
-  <!-- <form (ngSubmit)="onSubmit(f)" #f="ngForm" class="pure-form pure-form-aligned"> -->
   <form (ngSubmit)="onSubmit(f)" #f="ngForm" class="pure-form pure-form-aligned">
     <fieldset>
       <div class="pure-control-group">
@@ -94,8 +93,8 @@
       </div>
       <!-- Notes: I had to switch the node based email with a mailto. As a result it has been necessary to comment out code below as well as add ngModels to the fields above. These should be switched back to simple ngModel if we revert to a backend email. -->
       <div class="pure-controls">
-        <!-- <button *ngIf="!submitted" type="submit" class="pure-button">{{ "profile.send" | translate }}</button> -->
-        <!-- <button class="pure-button"> -->
+        <button *ngIf="!submitted" type="submit" class="pure-button">{{ "profile.send" | translate }}</button>
+        <!-- <button class="pure-button">
           <a 
             class="pure-button"
             [href]="'mailto:' + teacher + ',' + teacherEmail + '?subject=Kaleidoscope Profile&cc=' + studentEmail + '&body=' +
@@ -115,11 +114,10 @@
             feedback">
               {{ "profile.send" | translate }}
           </a>
-          <!-- <a href="mailto:someone@yoursite.com?cc=someoneelse@theirsite.com, another@thatsite.com, me@mysite.com&bcc=lastperson@theirsite.com&subject=Big%20News&body=Body-goes-here">Email Us</a> -->
           
           
-          <!-- </button> -->
-        <!-- <button *ngIf="submitted" type="button" class="pure-button button-success">{{ "profile.sent" | translate }}</button> -->
+          </button> -->
+          <button *ngIf="submitted" type="button" class="pure-button button-success">{{ "profile.sent" | translate }}</button>
         <button *ngIf="!submitted" type="button" (click)="f.resetForm()" class="pure-button">{{ "profile.clear" | translate }}</button>
       </div>
     </fieldset>
