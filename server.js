@@ -18,7 +18,8 @@ app.use(bodyParser.json());
 // app.use('*', function(req, res) {
 // 	return res.sendFile(path.join(__dirname, '/', 'index.html'));
 // });
-app.post('/sendProfile', handleSendProfile);
+app.post('/', handleSendProfile);
+app.get('/', (req, res) => res.send('Your reverse proxy is working kinda'));
 
 http.createServer(app).listen(port, function(err) {
 	console.log('listening on ' + port);
@@ -51,7 +52,9 @@ function handleSendProfile(req, res) {
 			'<h3>Personality</h3>' +
 			'<p>' + req.body.profile.personality + '</p>' +
 			'<h3>Learning History</h3>' +
-			'<p>' + req.body.profile.lhistory + '</p>'
+			'<p>' + req.body.profile.lhistory + '</p>' +
+			'<h3>Feedback</h3>' +
+			'<p>' + req.body.feedback + '</p>'
 	};
 	transporter.sendMail(mailOptions, function(error, info) {
 		if (error) {

@@ -8,12 +8,16 @@ The site has been built using angular 4.0 (using the angular cli) with a node se
 
 ## emails
 
-When the profile is complete it is sent using node/express and a gmail account I set up to send the emails. This very basic node server is found in the server folder under app.js. The credentials for the gmail account are in there.
+Emails are sent using node.js and gmail as can be seen in the server.js file.
 
 ## CSS
 
 This project uses pureCSS mostly for the grid.
 
+## Server
+
+This project is hosted on the university's webhotel. This is build on Centos7 and uses an apache server. It is hosted at http://kaleidoscope.helsinki.fi. The basic site is served using apache but the emails are processed using the node server.js, which is accessed via reverse proxy. This is configured in the apache config file that uses the proxy to direct requests ending in node to the node server on port 3000 instead of 80. The node server is managed using PM2.
+
 ## Acknowledgements
 
-The site was rebuilt from the original design by Jonathon Martin (jonathondsmartin@gmail.com). The images were taken from the original site but many have been replaced with css. The audio files were also produced by Jonathon Martin.
+The site was rebuilt from the original design by Jonathon Martin (jonathondsmartin@gmail.com). The images were taken from the original site but many have been replaced with css. The audio files were also produced by Jonathon Martin. 

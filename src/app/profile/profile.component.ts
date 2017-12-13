@@ -33,7 +33,7 @@ export class ProfileComponent implements OnInit {
     submission.profile = this.profileService.profile;
     submission.feedback = this.feedback;
     console.log(submission);
-    this.http.post('http://kaleidoscope.helsinki.fi/sendProfile', submission)
+    this.http.post('http://kaleidoscope.helsinki.fi/node', submission)
       .subscribe(
         (response) => console.log("message sent"),
         (error) => console.log("message failed"),
