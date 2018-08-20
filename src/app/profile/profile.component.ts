@@ -31,11 +31,11 @@ export class ProfileComponent implements OnInit {
   onSubmit(form: NgForm) {
     var submission = form.value;
     submission.profile = this.profileService.profile;
-    submission.feedback = this.feedback;
+    submission.feedback = this.feedback || "";
     console.log(submission);
-    this.http.post('http://kaleidoscope.helsinki.fi/node', submission)
+    this.http.post('http://localhost:3000/node', submission)
       .subscribe(
-        (response) => console.log("message sent"),
+        (response) => console.log(response),
         (error) => console.log("message failed"),
         () => this.submitted = true
       );
