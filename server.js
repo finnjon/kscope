@@ -1,6 +1,6 @@
+require('dotenv').config();
 var http = require('http');
 var express = require('express');
-// var nodemailer = require('nodemailer');
 var bodyParser = require('body-parser');
 var app = express();
 var cors = require('cors');
@@ -8,7 +8,7 @@ var path = require('path');
 var sgMail = require('@sendgrid/mail');
 //either I will use an environment variable on the server or locally use 3000
 var port = process.env.PORT || 3000;
-sgMail.setApiKey('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');
+sgMail.setApiKey(process.env.API_KEY);
 
 app.use(cors());
 app.use(express.static(path.join(__dirname, '/dist'))); //figure this out
@@ -23,6 +23,7 @@ app.get('/', (req, res) => res.send('Your reverse proxy is working kinda'));
 
 http.createServer(app).listen(port, function(err) {
 	console.log('now listening on ' + port);
+	console.log(process.env.API_KEY);
 });
 
 function handleSendProfile(req, res) {
