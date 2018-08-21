@@ -23,7 +23,6 @@ app.get('/', (req, res) => res.send('Your reverse proxy is working kinda'));
 
 http.createServer(app).listen(port, function(err) {
 	console.log('now listening on ' + port);
-	console.log(process.env.API_KEY);
 });
 
 function handleSendProfile(req, res) {
