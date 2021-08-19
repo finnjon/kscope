@@ -18,8 +18,8 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 
-app.post('/node', handleSendProfile);
-app.get('/', (req, res) => res.send('Your reverse proxy is working kinda'));
+app.post('/', handleSendProfile);
+app.get('/', (req, res) => res.send('Testing for changes'));
 
 http.createServer(app).listen(port, function(err) {
 	console.log('now listening on ' + port);
@@ -30,7 +30,7 @@ function handleSendProfile(req, res) {
 	const msg = {
 		from: '"Kaleidoscope" <jonathon.martin@helsinki.fi>', // sender address
 		to: [req.body.teacherEmail || req.body.teacher, req.body.studentEmail], // list of receivers
-		subject: 'Kaleidoscope Profile', // Subject line
+		subject: 'Kaleidoscope Profile for ' + req.body.studentName, // Subject line
 		html: '<h2>Your Kaleidoscope Profile</h2>' +
 			'<h4>Name: ' + req.body.studentName + '</h4>' +
 			'<h4>Faculty: ' + req.body.faculty + '</h4>' +
