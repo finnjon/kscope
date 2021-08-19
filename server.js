@@ -26,7 +26,7 @@ http.createServer(app).listen(port, function(err) {
 });
 
 function handleSendProfile(req, res) {
-	console.log("triggered");
+	console.log("newly triggered");
 	const msg = {
 		from: '"Kaleidoscope" <jonathon.martin@helsinki.fi>', // sender address
 		to: [req.body.teacherEmail || req.body.teacher, req.body.studentEmail], // list of receivers
