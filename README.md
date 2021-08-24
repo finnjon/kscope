@@ -22,7 +22,7 @@ To access the site remotely you will need to use a vpn, otherwise permission is 
 
 ## Notes to Self
 
-Often the university admins seem to reset everything and then I have trouble getting in or changing files with FileZilla because although I have admin permissions, I don't have permissions to access the html folder with my 'jmartin' username. I solve this by navigating to the html folder and using 'sudo chmod 777 -R html'. This means I can sftp the files in again.
+Often the university admins seem to reset everything and then I have trouble getting in or changing files with FileZilla because although I have admin permissions, I don't have permissions to access the html folder with my 'jmartin' username. I solve this by navigating to the html folder and using 'sudo chmod 777 -R html'. This means I can sftp the files in again. Note - message from helpdesk - "Please do not use chmod to set permissions, use setfacl. chmod recalculates the mask and permissions are not effective any more."
 
 If it's not working check the following:
 - is the reverse proxy working (go to kaleidoscope.helsinki.fi/node). You should see a message.
