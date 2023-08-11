@@ -31,6 +31,7 @@
     "text": "<p>Here is the profile that you have written. If you still want to change something you have written, you can use the links above to go back to the place in question.</p><p>If you give an email address and send us your profile, you will receive a response.</p>",
     "feedback": "What do you think about Kaleidoscope? Write your comments here for us.",
     "alms-only": "ALMS students only",
+    "pdf-instructions": "You can download a pdf version of your profile by clicking the button below. You can then send it to your teacher.",
     "name": "Name",
     "faculty": "Faculty",
     "select": "select your teacher",
@@ -39,7 +40,8 @@
     "address": "Write your email address here. Send it and you will get a response.",
     "send": "Send your profile",
     "sent": "Profile Sent",
-    "clear": "clear"
+    "clear": "clear",
+    "pdf": "Download pdf"
   },
   "ref-general": {
     "click": "- Click on a comment to see a response",

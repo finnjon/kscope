@@ -29,7 +29,9 @@
 <hr>
 <div class="profile-form">
   <h3>{{ "profile.alms-only" | translate }}:</h3>
-  <form (ngSubmit)="onSubmit(f)" #f="ngForm" class="pure-form pure-form-aligned">
+  <h4>{{ "profile.pdf-instructions" | translate }}</h4>
+  <button *ngIf="!submitted" type="button" (click)="generatePdf()" class="pure-button">{{ "profile.pdf" | translate }}</button>
+  <!-- <form (ngSubmit)="onSubmit(f)" #f="ngForm" class="pure-form pure-form-aligned">
     <fieldset>
       <div class="pure-control-group">
         <label for="name">{{ "profile.name" | translate }}:</label>
@@ -95,7 +97,8 @@
         <button *ngIf="!submitted" type="submit" class="pure-button">{{ "profile.send" | translate }}</button>
         <button *ngIf="submitted" type="button" class="pure-button button-success">{{ "profile.sent" | translate }}</button>
         <button *ngIf="!submitted" type="button" (click)="f.resetForm()" class="pure-button">{{ "profile.clear" | translate }}</button>
+        <button *ngIf="!submitted" type="button" (click)="generatePdf()" class="pure-button">{{ "profile.pdf" | translate }}</button>
       </div>
     </fieldset>
-  </form>
+  </form> -->
 </div>
