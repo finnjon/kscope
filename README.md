@@ -1,14 +1,16 @@
 # Kaleidoscope
 
-This code comprises the entirety of the Kaleidoscope website. Kaleidoscope is an almost entirely front-end app that enables students to reflect on what kind of learner they are and if they wish, to send their reflections to themselves and their teacher at the University of Helsinki Language Centre.
+This code comprises the entirety of the Kaleidoscope website. As of Autumn 2023 Kaleidoscope is a static app that enables students to reflect on what kind of learner they are and if they wish, to create a pdf of their reflections.
 
 ## Engineering
 
-The site has been built using angular 4.0 (using the angular cli) with a node server on the backend used only for sending emails. The texts can be found in the i18n folder in Finnish and English and can be amended there. Additional texts can be found in each of the components for the various sections. For example, personality-ref, needs-ref, motivation-ref and so on. These are the only places where texts exist and they can be edited there directly.
+The site has been built using angular 4.0 (using the angular cli) (with a node server on the backend used only for sending emails - previously). The texts can be found in the i18n folder in Finnish and English and can be amended there. Additional texts can be found in each of the components for the various sections. For example, personality-ref, needs-ref, motivation-ref and so on. These are the only places where texts exist and they can be edited there directly.
 
 ## emails
 
-Emails are sent using node.js and currently we are using a free account with SendGrid. The password is in the .env file. We have a hundred a day which is plenty. Note though that sometimes the emails are rejected by the university servers because the IP address used by SendGrid has been flagged by a spam service. As of August 2021 this hasn't happened in some time.
+Prior to 2023 emails were sent as below. Since 2023 this functionality is removed and users can generate a pdf which they can send manually.
+
+(OUTDATED - Emails are sent using node.js and currently we are using a free account with SendGrid. The password is in the .env file. We have a hundred a day which is plenty. Note though that sometimes the emails are rejected by the university servers because the IP address used by SendGrid has been flagged by a spam service. As of August 2021 this hasn't happened in some time.)
 
 ## CSS
 
