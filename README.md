@@ -2,6 +2,10 @@
 
 This code comprises the entirety of the Kaleidoscope website. As of Autumn 2023 Kaleidoscope is a static app that enables students to reflect on what kind of learner they are and if they wish, to create a pdf of their reflections.
 
+## Update 22.8.2023
+
+Since the university decided to shut down its server and SendGrid also had some issue I decided to replace the email generation with a simple "generate pdf". This means the site is now completely static and the server is unnecessary. It is now hosted on github pages under my account "finnjon".
+
 ## Engineering
 
 The site has been built using angular 4.0 (using the angular cli) (with a node server on the backend used only for sending emails - previously). The texts can be found in the i18n folder in Finnish and English and can be amended there. Additional texts can be found in each of the components for the various sections. For example, personality-ref, needs-ref, motivation-ref and so on. These are the only places where texts exist and they can be edited there directly.
