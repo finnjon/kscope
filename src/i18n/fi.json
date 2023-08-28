@@ -31,7 +31,7 @@
     "text": "<p>Tässä yhteenveto antamistasi tiedoista. Jos haluat viel&auml; muuttaa tietoja, yll&auml;olevista linkeist&auml; voit siirty&auml; takaisin kyseisiin kenttiin. Painiketta painamalla l&auml;het&auml;t yhteenvedon valitsemaasi sähköpostiosoitteeseen. Yhteenveto lähetetään lisäksi opettajalle.</p>",
     "feedback": "Mitä mieltä olet Kaleidoskoopista? Kirjoita tähän kommenttisi.",
     "alms-only": "ALMS-opiskelijat täyttävät",
-    "pdf-instructions": "Voit ladata pdf-version profiilistasi napsauttamalla alla olevaa painiketta. Voit sitten lähettää sen opettajallesi.",
+    "pdf-instructions": "Voit ladata pdf-version profiilistasi napsauttamalla alla olevaa painiketta. Voit sitten lähettää sen opettajallesi.<b>Käytäthän .helsinki-sähköpostiosoitettasi.</b>",
     "name": "Nimi",
     "faculty": "Tiedekunta",
     "select": "valitse opettajasi listasta",
